@@ -1,2 +1,2 @@
-# C-PROJECTs
-basic projects using C conceprs
+# CAFETERIA MANAGMENT SYSTEM
+ Cafeteria managment system using C 
