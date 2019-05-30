@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<ctype.h>
 void main_screen()
 void menu_card()
 void account()
@@ -84,13 +85,13 @@ void account(char USN[10], int MONEY)
             printf("enter the USN\n");
             for(i=0;i<n;i++)
             {
-                scanf("%s",&a[i].USN)
+                scanf("%s",&a[i].USN);
                 
             }
-            printf("ENTER THE AMOUNT TO DEPOSSITE\n\n "):
+            printf("ENTER THE AMOUNT TO DEPOSSITE\n\n ");
             scanf("%d",&money);
 
-            printf("THE DETAILS ARE : \n ")
+            printf("THE DETAILS ARE : \n ");
             for(i=0;i<n;i++)
             {
                 printf("%s",a[i].USN);
@@ -112,9 +113,9 @@ void account(char USN[10], int MONEY)
         }
        else
         {    printf("ENTER USN\n");
-    printf(" ____________\n")
-    scanf("|%s|  ",&a[i].USN)
-    printf("_____________\n")
+    printf(" ____________\n");
+    scanf("|%s|  ",&a[i].USN);
+    printf("_____________\n");
     printf("THE BALANCE AMOUNT:  ",);
 
         }
