@@ -294,7 +294,7 @@ void main()
 void print_token(char name[],int cost,int number)
 {
 	printf("------------------------------------\n");
-	printf("Global College Canteen\n\nItem\t\t-\tCost\n%s\t\t-\t%d\n",name,cost*number);
+	printf("CANTEEN NAME\n\nItem\t\t-\tCost\n%s\t\t-\t%d\n",name,cost*number);
 	printf("------------------------------------\n");
 	return;
 }
